@@ -1,0 +1,7 @@
+{
+    "powermode.enabled": true,
+    "powermode.combo.counterEnabled": "hide",
+    "powermode.combo.location": "off",
+    "powermode.explosions.enabled": true,
+    "powermode.shake.enabled": false
+}
