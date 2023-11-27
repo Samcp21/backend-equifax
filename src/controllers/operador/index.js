@@ -11,7 +11,7 @@ const crearOperador = async (req, res) => {
     })
     res.send(data)
   } catch (e) {
-    loggers.error(JSON.stringify(e))
+    console.error(JSON.stringify(e))
     const code = e.code ? e.code : 500
     const message = e.message ? e.message : SERVER_ERROR.message
     res.status(code).json({ codigoRespuesta: 99, message })

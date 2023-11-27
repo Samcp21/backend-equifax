@@ -16,6 +16,7 @@
     "dependencies": {
         "axios": "^0.21.1",
         "bcrypt": "^5.0.1",
+        "carbone": "^3.5.5",
         "cors": "^2.8.5",
         "date-fns": "^2.12.0",
         "date-fns-tz": "^1.1.6",
